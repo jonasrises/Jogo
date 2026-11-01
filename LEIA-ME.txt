@@ -1,0 +1,11 @@
+COMO GERAR O APK (sem instalar nada no PC)
+
+1. Crie uma conta gratuita em github.com e um repositório novo (pode ser privado).
+2. Envie TODO o conteúdo desta pasta para o repositório
+   (botão "Add file > Upload files"; arraste inclusive a pasta .github e a pasta www).
+   Se a pasta .github não aparecer no seu explorador de arquivos, ative "mostrar arquivos ocultos".
+3. No repositório, abra a aba "Actions". O workflow "Build APK" roda sozinho
+   (ou clique em "Run workflow"). Leva uns 5 a 8 minutos.
+4. Quando ficar verde, abra a execução e baixe "vampire-survive-apk" em "Artifacts".
+   Descompacte o .zip: dentro está o app-debug.apk.
+5. No celular: passe o arquivo, toque nele e permita "instalar apps de fontes desconhecidas".
